@@ -36,7 +36,7 @@ setInterval(() => {
     state.randomNumber = Math.floor(Math.random() * 1000);
 }, 1000);
 ```
-On this example we create a variable "***state()***" with function "***reactive()***".
+On this example we create a variable **state** with function "***reactive()***".
 This accepts 1 parameter, this is object of different properties. Function "watchEffect" checking the changing values of all properties.
 When the property value changes "***watchEffect()***" is running 1 time. This accepts only 1 parameter.
 This can be callback or anonymous function.
